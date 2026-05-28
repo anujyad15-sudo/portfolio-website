@@ -3,52 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <title>Anuj Yadav | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+<header>
+    <div class="container">
         <h1>Anuj Yadav</h1>
-        <p>Computer Science Student | Aspiring Developer</p>
-    </header>
+        <p>Aspiring Software Developer | IT Student</p>
 
-    <section class="about">
+        <a href="https://github.com/anujyad15-sudo" class="btn">GitHub</a>
+        <a href="mailto:anujyad1415@gmail.com" class="btn">Contact Me</a>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
         <h2>About Me</h2>
         <p>
-            I am a B.Tech Information Technology student interested in software development,
-            problem solving, and learning new technologies like Python, C++, and Web Development.
+            I am a B.Tech Information Technology student passionate about software development,
+            problem solving, and building real-world applications using C++, Python, and web technologies.
         </p>
-    </section>
+    </div>
+</section>
 
-    <section class="skills">
+<section class="skills">
+    <div class="container">
         <h2>Skills</h2>
-        <ul>
-            <li>C++ (Basics)</li>
-            <li>Python (Basics)</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>MySQL Basics</li>
-        </ul>
-    </section>
+        <div class="grid">
+            <div class="card">C++</div>
+            <div class="card">Python</div>
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">MySQL</div>
+            <div class="card">GitHub</div>
+        </div>
+    </div>
+</section>
 
-    <section class="projects">
+<section class="projects">
+    <div class="container">
         <h2>Projects</h2>
-        <ul>
-            <li>Basic Calculator (C++)</li>
-            <li>Student Record System (C++)</li>
-        </ul>
-    </section>
 
-    <section class="contact">
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>Responsive portfolio website built using HTML and CSS.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Record System</h3>
+            <p>C++ project using file handling to manage student records.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
         <h2>Contact</h2>
         <p>Email: anujyad1415@gmail.com</p>
-        <p>GitHub: github.com/anujyad15-sudo</p>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2026 Anuj Yadav</p>
-    </footer>
+<footer>
+    <p>© 2026 Anuj Yadav. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
